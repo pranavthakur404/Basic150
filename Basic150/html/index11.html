@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 11</title>
+  </head>
+  <script src="question11.js" defer></script>
+  <body>
+    <h1>Temprature conversion</h1>
+    <button class="cel_fer_btn">Celcius to Ferhanite</button>
+    <button class="fer_cel_btn">Ferhanite to Celcius</button>
+
+    <div class="cel_container">
+      <br />
+      <label for="celcius">Enter Temprature in Celcius : </label>
+      <input type="number" class="cel_value" />
+      <button class="cel_converter">Convert</button>
+      <h4 class="cel_answer"></h4>
+    </div>
+    <div class="fer_container">
+      <br />
+      <label for="celcius">Enter Temprature in Ferhanite : </label>
+      <input type="text" class="fer_value" />
+      <button class="fer_converter">Convert</button>
+      <h4 class="fer_answer"></h4>
+    </div>
+  </body>
+  <style>
+    .cel_container,
+    .fer_container {
+      display: none;
+    }
+    .cel_container.active,
+    .fer_container.active {
+      display: block;
+    }
+  </style>
+</html>
