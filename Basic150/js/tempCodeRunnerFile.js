@@ -1,1 +1,1 @@
-k - 1
+num.toString().slice(1)
